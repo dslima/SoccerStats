@@ -7,7 +7,11 @@ public class Manager {
 	List<Team> leageTeams;
 	
 	public Manager(){
-		//TODO: IMPLEMENT THIS TOO
+		Team Brazil = new Team("Brazil");
+		Team Germany = new Team("Germany");
+		Match AvsB = new Match (Brazil, Germany, 1);
+		AvsB.addHomeGoal();
+
 	}
 	
 	public void DisplayTopScoringMatches(){
